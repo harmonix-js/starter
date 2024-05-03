@@ -1,0 +1,10 @@
+{
+  "name": "harmony-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "",
+    "dev": ""
+  },
+  "dependencies": {}
+}
