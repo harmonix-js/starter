@@ -1,10 +1,14 @@
 {
-  "name": "harmony-app",
+  "name": "harmonix-app",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "",
-    "dev": ""
+    "start": "harmonix start"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@harmonix-js/core": "^0.0.1"
+  },
+  "devDependencies": {
+    "@harmonix-js/cli": "^0.0.1"
+  }
 }

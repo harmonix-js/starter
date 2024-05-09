@@ -1,3 +1,3 @@
-export default defineHarmonyConfig({
-  version: 10
-})
+import { defineHarmonyConfig } from '@harmonix-js/core'
+
+export default defineHarmonyConfig({})
