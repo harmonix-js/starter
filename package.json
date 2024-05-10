@@ -9,6 +9,6 @@
     "@harmonix-js/core": "^0.0.1"
   },
   "devDependencies": {
-    "@harmonix-js/cli": "^0.0.1"
+    "@harmonix-js/cli": "^0.0.3"
   }
 }
