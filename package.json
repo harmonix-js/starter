@@ -6,9 +6,9 @@
     "start": "harmonix start"
   },
   "dependencies": {
-    "@harmonix-js/core": "^0.0.2"
+    "@harmonix-js/core": "^0.0.3"
   },
   "devDependencies": {
-    "@harmonix-js/cli": "^0.0.3"
+    "@harmonix-js/cli": "^0.0.4"
   }
 }
