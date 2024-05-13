@@ -10,6 +10,6 @@
     "discord.js": "^14.15.2"
   },
   "devDependencies": {
-    "@harmonix-js/cli": "^0.0.4"
+    "@harmonix-js/cli": "^0.0.5"
   }
 }
