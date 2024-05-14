@@ -6,7 +6,7 @@
     "start": "harmonix start"
   },
   "dependencies": {
-    "@harmonix-js/core": "^0.0.5",
+    "@harmonix-js/core": "^0.0.6",
     "discord.js": "^14.15.2"
   },
   "devDependencies": {
