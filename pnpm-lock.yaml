@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@harmonix-js/core':
-        specifier: ^0.0.6
-        version: 0.0.6
+        specifier: ^0.0.7
+        version: 0.0.7
       discord.js:
         specifier: ^14.15.2
         version: 14.15.2
@@ -56,6 +56,10 @@ packages:
 
   '@harmonix-js/core@0.0.6':
     resolution: {integrity: sha512-xZOQJ/WGISksbYmGsX+96hJFQnysRaO5Yp/UH5KQDNYVBZ9/pfRutbsF1/FdnNsSZnQotCP2bhx9S5Y+xo8RaA==}
+    engines: {node: ^16.0.0 || >=18.0.0}
+
+  '@harmonix-js/core@0.0.7':
+    resolution: {integrity: sha512-8843fVrp3ynix0PJFb1SuvvrB1YPFwBEFSNdb+olpVn0z/sg4kMA9fLnxOsqDb6ZWAj8gLTq8PLVTEn0sMbWbg==}
     engines: {node: ^16.0.0 || >=18.0.0}
 
   '@nodelib/fs.scandir@2.1.5':
@@ -471,6 +475,19 @@ snapshots:
       - utf-8-validate
 
   '@harmonix-js/core@0.0.6':
+    dependencies:
+      c12: 1.10.0
+      consola: 3.2.3
+      discord.js: 14.15.2
+      dotenv: 16.4.5
+      globby: 14.0.1
+      jiti: 1.21.0
+      pathe: 1.1.2
+    transitivePeerDependencies:
+      - bufferutil
+      - utf-8-validate
+
+  '@harmonix-js/core@0.0.7':
     dependencies:
       c12: 1.10.0
       consola: 3.2.3
