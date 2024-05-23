@@ -18,20 +18,20 @@ yarn install
 bun install
 ```
 
-## Development Server
+## Development mode (with live reload)
 
 Start the bot:
 
 ```bash
 # npm
-npm run start
+npm run dev
 
 # pnpm
-pnpm start
+pnpm dev
 
 # yarn
-yarn start
+yarn dev
 
 # bun
-bun run start
+bun run dev
 ```
