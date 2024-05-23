@@ -20,33 +20,18 @@ bun install
 
 ## Development Server
 
-Start the development server:
+Start the bot:
 
 ```bash
 # npm
-npm run dev
+npm run start
 
 # pnpm
-pnpm run dev
+pnpm start
 
 # yarn
-yarn dev
+yarn start
 
 # bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
+bun run start
 ```
