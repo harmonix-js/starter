@@ -3,7 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "harmonix dev"
+    "dev": "harmonix dev",
+    "build": "harmonix build"
   },
   "dependencies": {
     "@harmonix-js/core": "^0.0.16",
