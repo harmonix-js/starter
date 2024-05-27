@@ -4,7 +4,8 @@
   "type": "module",
   "scripts": {
     "dev": "harmonix dev",
-    "build": "harmonix build"
+    "build": "harmonix build",
+    "invite": "harmonix invite"
   },
   "dependencies": {
     "@harmonix-js/core": "^0.0.16",
