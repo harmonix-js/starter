@@ -7,7 +7,7 @@
     "build": "harmonix build"
   },
   "dependencies": {
-    "@harmonix-js/core": "^0.0.16",
+    "@harmonix-js/core": "^0.0.17",
     "discord.js": "^14.15.2"
   },
   "devDependencies": {
