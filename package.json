@@ -8,7 +8,7 @@
     "invite": "harmonix invite"
   },
   "dependencies": {
-    "@harmonix-js/core": "^0.0.18",
+    "@harmonix-js/core": "^0.1.0",
     "discord.js": "^14.15.2"
   },
   "devDependencies": {
