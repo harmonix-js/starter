@@ -1,3 +1,3 @@
-import { defineHarmonixConfig } from '@harmonix-js/core'
+import { defineConfig } from 'harmonix'
 
-export default defineHarmonixConfig({})
+export default defineConfig({})
