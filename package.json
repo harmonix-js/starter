@@ -8,6 +8,6 @@
     "invite": "harmonix invite"
   },
   "dependencies": {
-    "harmonix": "1.0.0-beta.0"
+    "harmonix": "1.0.0-beta.2"
   }
 }

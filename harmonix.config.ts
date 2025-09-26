@@ -1,3 +1,8 @@
-import { defineConfig } from 'harmonix'
+import { defineConfig, env } from 'harmonix/config'
 
-export default defineConfig({})
+export default defineConfig({
+  token: env('DISCORD_TOKEN'),
+  clientOptions: {
+    intents: ['Guilds']
+  }
+})
