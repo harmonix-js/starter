@@ -25,4 +25,4 @@ For improvements, please open a Pull Request to each individual branch.
 
 ## License
 
-[MIT](https://github.com/harmonix-js/.github/blob/main/LICENSE) - Made with 💜
+[MIT](./LICENSE) - Made with 💜
