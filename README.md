@@ -1,28 +1,32 @@
 # 🪄 Harmonix Starter Templates
 
-Quickly get started with a minimal Harmonix starter template!
+A collection of official starter templates for quickly bootstrapping new Harmonix projects.
 
-## Usage
+## 🚀 Quick Start
 
-You can use the `create-harmonix` CLI to clone the latest template to an empty directory:
+You can scaffold a new Harmonix project using the **`create-harmonix`** CLI.
 
-```sh-session
-$ pnpm create harmonix@latest [<dir>] -- [-t,--template=<template>]
+```bash
+pnpm create harmonix@latest [<dir>] -- [-t,--template=<template>]
 ```
 
-**Example:** Clone `v1` to `my-bot` directory:
+**Example:** Create a new project named `my-bot` using the `v1` template:
 
-```sh-session
-$ pnpm create harmonix@latest my-bot -- -t v1
+```bash
+pnpm create harmonix@latest my-bot -- -t v1
 ```
 
-## Contribution
+If no template is specified, the CLI will use the latest stable version by default.
 
-Each template is maintained in a branch (see [all branches](https://github.com/harmonix-js/starter/branches)).
-For improvements, please open a Pull Request to each individual branch.
+## 🛠️ Contributing
 
-**Note:** Please avoid commiting lock-files such as `yarn.lock` and `package-lock.json` to template branches!
+We welcome contributions to improve existing templates or add new ones!
 
-## License
+- Each template is maintained in ts own branch (see [all branches](https://github.com/harmonix-js/starter/branches)).
+- To update a specific template, open a Pull Request targeting that branch.
 
-[MIT](./LICENSE) - Made with 💜
+**Note:** Please avoid commiting lock-files such as `pnpm-lock.yaml` and `package-lock.json` to template branches!
+
+## 📄 License
+
+[MIT](./LICENSE) - Made with 💜 by the Harmonix team
