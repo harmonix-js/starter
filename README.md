@@ -1,37 +1,22 @@
-# Harmony Minimal Starter
+# 🪄 Harmonix Starter Templates
 
-## Setup
+Quickly get started with a minimal Harmonix starter template!
 
-Make sure to install the dependencies:
+## Usage
 
-```bash
-# npm
-npm install
+You can use the `create-harmonix` CLI to clone the latest template to an empty directory:
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+```sh-session
+$ pnpm create harmonix@latest [<dir>]
 ```
 
-## Development mode (with live reload)
+## Contribution
 
-Start the bot:
+Each template is maintained in a branch (see [all branches](https://github.com/harmonix-js/starter/branches)).
+For improvements, please open a Pull Request to each individual branch.
 
-```bash
-# npm
-npm run dev
+**Note:** Please avoid commiting lock-files such as `yarn.lock` and `package-lock.json` to template branches!
 
-# pnpm
-pnpm dev
+## License
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
+[MIT](https://github.com/harmonix-js/.github/blob/main/LICENSE) - Made with 💜
