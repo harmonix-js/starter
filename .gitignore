@@ -1,5 +1,23 @@
-*.lock*
-*.log*
+# Harmony dev/build outputs
 .output
-node_modules
+.harmony
 dist
+
+# Node dependencies
+node_modules
+*-lock.json
+
+# Logs
+logs
+*.log
+
+# Misc
+.DS_Store
+.fleet
+.idea
+.vscode
+
+# Local env files
+.env
+.env.*
+!.env.example
