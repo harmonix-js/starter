@@ -18,9 +18,9 @@ yarn install
 bun install
 ```
 
-## Development mode (with live reload)
+## Development mode
 
-Start the bot:
+Start the bot in development mode:
 
 ```bash
 # npm
@@ -34,4 +34,22 @@ yarn dev
 
 # bun
 bun run dev
+```
+
+## Production
+
+Build the bot for production:
+
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
 ```
