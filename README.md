@@ -7,7 +7,13 @@ Quickly get started with a minimal Harmonix starter template!
 You can use the `create-harmonix` CLI to clone the latest template to an empty directory:
 
 ```sh-session
-$ pnpm create harmonix@latest [<dir>]
+$ pnpm create harmonix@latest [<dir>] -- [-t,--template=<template>]
+```
+
+**Example:** Clone `v1` to `my-bot` directory:
+
+```sh-session
+$ pnpm create harmonix@latest my-bot -- -t v1
 ```
 
 ## Contribution
