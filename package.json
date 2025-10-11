@@ -8,6 +8,7 @@
     "invite": "harmonix invite"
   },
   "dependencies": {
-    "harmonix": "1.0.0-beta.2"
+    "harmonix": "1.0.0-beta.2",
+    "discord.js": "14.23.2"
   }
 }
