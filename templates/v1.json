@@ -1,6 +1,5 @@
 {
   "name": "v1",
   "defaultDir": "harmonix-bot",
-  "url": "https://harmonix-js.netlify.app",
   "tar": "https://codeload.github.com/harmonix-js/starter/tar.gz/refs/heads/v1"
 }
